@@ -21,5 +21,3 @@ if bar == local:
 
 else:
     print(':(')
-        st.session_state.etapa = 1
-        st.rerun()

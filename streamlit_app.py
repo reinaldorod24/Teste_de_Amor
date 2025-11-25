@@ -1,4 +1,3 @@
-import streamlit as st
 entrada = input('Digite [E] para Entrar ou [S] para Sair:  ')
 if entrada == 'E':
     print('Você entrou, parabéns.')

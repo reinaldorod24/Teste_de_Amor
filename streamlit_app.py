@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Perguntas 😄")
+st.title("Perguntas pra passar seu tempo kk")
 
 # Usamos session_state para controlar o fluxo das perguntas
 if "etapa" not in st.session_state:
@@ -62,7 +62,7 @@ elif st.session_state.etapa == 3:
 # FINAL
 # ------------------------
 elif st.session_state.etapa == 4:
-    st.success("Você terminou todas as perguntas! 🎉✨")
+    st.success("Você terminou todas as perguntas! refaça para passar o tempo KKK TE AMO ")
     if st.button("Recomeçar"):
         st.session_state.etapa = 1
         st.rerun()
